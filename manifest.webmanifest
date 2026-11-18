@@ -1,0 +1,29 @@
+{
+  "name": "Ledgerwood",
+  "short_name": "Ledgerwood",
+  "description": "Your money, made simple: spending, budget, bills, net worth and goals.",
+  "start_url": "./",
+  "id": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#e6ecf2",
+  "theme_color": "#2f6db5",
+  "categories": [
+    "finance",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
