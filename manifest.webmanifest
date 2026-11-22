@@ -2,10 +2,15 @@
   "name": "Ledgerwood",
   "short_name": "Ledgerwood",
   "description": "Your money, made simple: spending, budget, bills, net worth and goals.",
+  "lang": "en-US",
+  "dir": "ltr",
   "start_url": "./",
   "id": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
   "orientation": "any",
   "background_color": "#e6ecf2",
   "theme_color": "#2f6db5",
@@ -13,17 +18,45 @@
     "finance",
     "productivity"
   ],
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icon-256.png",
-      "sizes": "256x256",
-      "type": "image/png"
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add spending",
+      "short_name": "Add",
+      "url": "./#add",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
